@@ -35,6 +35,7 @@ public class Main {
       fileList.add(arg);
     }
     System.out.println();
+    // APIDeveloperGzip(fileList);
 
     if (compressionType.equals("--zip")){
       ctx.setCompressionStrategy(new Zip());
@@ -49,7 +50,14 @@ public class Main {
       System.out.println("Please pick a compression type (ie: java Main --zip hello.txt");
     }
 
-
     ctx.createArchive(fileList);
+  }
+
+  public static void APIDeveloperGzip(List<String> fileList){
+    CompressionContext compression = new CompressionContext();
+    compression.setCompressionStrategy(new Gzip());
+
+    compression.createArchive(fileList);
+    System.exit(0);
   }
 }
