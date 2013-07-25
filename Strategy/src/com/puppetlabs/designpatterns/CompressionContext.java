@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  *
- * @author
+ * @author briancain
  *
  */
 public class CompressionContext {
