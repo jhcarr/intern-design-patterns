@@ -75,4 +75,11 @@ This seems like a useful design pattern for keeping code clean and easy to read.
 
 ## Real World API Example
 
-### java.awt
+### java.awt (Java Abstract Window Toolkit)
+
+The Java Abstract Window Toolkit uses the Strategy design pattern. It's main use is the automatic layout management of given GUI components on the screen. The size and position of these components can be determined at run time dynamically (although it can also be set pre-run time).
+
+Resources
+
+- [Info on java.awt and its methods](https://www.clear.rice.edu/comp310/JavaResources/GUI/)
+- [java.awt documentation](http://docs.oracle.com/javase/6/docs/api/java/awt/package-summary.html)
