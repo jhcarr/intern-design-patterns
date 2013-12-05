@@ -1,6 +1,6 @@
 # State
 
-An example of the objects-for-states design pattern written in objective-c
+An example of the objects-for-states design pattern in objective-c by Justin Carr.
 
 ## Running the StateExample app
 1. Verify that you are running Xcode 4.3 or higher.
